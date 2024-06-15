@@ -1,0 +1,85 @@
+.homepage_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homepage_header h1 {
+    font-weight: bold;
+}
+
+
+.logout_btn button {
+    padding: 10px 15px;
+    width: 100%;
+    background-color: #000;
+    color: #ffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.choose_opt {
+    border: 5px groove black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.upload_file {
+    margin-top: 50px;
+}
+
+.upload_btn {
+    padding: 10px 15px;
+    background-color: #000;
+    color: #ffff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+
+.image_box {
+    border: 5px groove black;
+    border-radius: 5px;
+    padding: 40px 30px;
+    margin: 50px 0px;
+    box-shadow: 5px 5px;
+}
+
+.uploaded_img {
+    width: 100%;
+}
+
+
+.extracted_text {
+    border: 5px groove black;
+    padding: 40px 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .homepage_header {
+        margin-top: 15px;
+    }
+
+    .homepage_header h1 {
+        font-size: 16px;
+    }
+
+    .logout_btn button {
+        padding: 5px;
+    }
+
+    .choose_opt {
+        max-width: 295px;
+        margin-bottom: 15px;
+    }
+
+
+
+    .upload_btn {
+        margin: 0;
+    }
+}

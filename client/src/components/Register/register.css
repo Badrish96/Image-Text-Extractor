@@ -1,0 +1,188 @@
+body {
+    min-height: 100vh;
+}
+
+.root {
+    min-height: 100vh;
+}
+
+.main {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+}
+
+.register_banner img {
+    max-width: 100%;
+    display: block;
+}
+
+.register_form {
+    padding: 0px 20px;
+}
+
+
+.wrap {
+    border: 1px solid;
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    max-width: 700px;
+    max-height: 400px;
+}
+
+.wrap>div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.col-6 {
+    padding: 0 !important;
+}
+
+.register_heading h3,
+h6 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.register_heading h6 {
+    color: gray;
+}
+
+.form_inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 695px;
+    width: 100%;
+}
+
+.form_inputs label {
+    font-weight: bold;
+}
+
+.form_inputs input {
+    border-radius: 10px;
+    margin: 10px 0px;
+    width: 100%;
+    padding: 5px;
+    box-shadow: none;
+    outline: none;
+}
+
+form {
+    width: 100%;
+}
+
+.registerForm_btn button {
+    padding: 5px 0;
+    width: 100%;
+    background-color: #000;
+    color: #ffff;
+    border-radius: 10px;
+}
+
+.registerForm_btn p {
+    margin: 5px 0px;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+}
+
+.registerForm_btn a {
+    color: #000;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .wrap {
+        max-width: 840px;
+        max-height: 600px;
+    }
+
+}
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1199px) {
+
+    .wrap {
+        max-width: 840px;
+        max-height: 550px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 991px) {
+    .wrap {
+        max-height: 450px;
+    }
+
+    .register_heading h3,
+    h6 {
+        font-size: 10px;
+    }
+
+    .form_inputs label {
+        font-size: 10px;
+    }
+
+    .form_inputs input {
+        padding: 5px;
+    }
+
+    .form_inputs input::placeholder {
+        font-size: 12px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .registerForm_btn button {
+        padding: 5px 0;
+        font-size: 12px;
+    }
+
+    .registerForm_btn p {
+        font-size: 10px;
+    }
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .main .wrap {
+        max-width: 100%;
+        max-height: 100% !important;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .register_banner {
+        display: none !important;
+    }
+
+    .wrap>div {
+        padding: 10px;
+    }
+}
